@@ -1,0 +1,91 @@
+{
+  "intercept": 10.531365,
+  "coefficients": {
+    "sun_elevation_deg": 3.050054,
+    "sun_azimuth_deg": 0.072864,
+    "time_of_day_hr": 0.080154,
+    "shadow_length_m": 0.829417,
+    "shadow_width_m": 3.091301,
+    "shadow_area_m2": 2.270661,
+    "aspect_ratio": 1.375542,
+    "object_type": -0.13878
+  },
+  "scaler_mean": {
+    "sun_elevation_deg": 44.67215,
+    "sun_azimuth_deg": 182.648212,
+    "time_of_day_hr": 11.836675,
+    "shadow_length_m": 14.48281,
+    "shadow_width_m": 5.70849,
+    "shadow_area_m2": 75.491786,
+    "aspect_ratio": 2.888565,
+    "object_type": 1.16875
+  },
+  "scaler_std": {
+    "sun_elevation_deg": 20.481977,
+    "sun_azimuth_deg": 104.152304,
+    "time_of_day_hr": 3.443147,
+    "shadow_length_m": 15.127681,
+    "shadow_width_m": 3.583769,
+    "shadow_area_m2": 72.16035,
+    "aspect_ratio": 2.667879,
+    "object_type": 1.071342
+  },
+  "metrics": {
+    "MAE": 1.792,
+    "RMSE": 2.3156,
+    "R2": 0.8337,
+    "CV_R2": 0.8232
+  },
+  "features": [
+    "sun_elevation_deg",
+    "sun_azimuth_deg",
+    "time_of_day_hr",
+    "shadow_length_m",
+    "shadow_width_m",
+    "shadow_area_m2",
+    "aspect_ratio",
+    "object_type"
+  ],
+  "feature_ranges": {
+    "sun_elevation_deg": {
+      "min": 10.32,
+      "max": 79.98,
+      "mean": 44.318
+    },
+    "sun_azimuth_deg": {
+      "min": 0.0,
+      "max": 359.22,
+      "mean": 180.866
+    },
+    "time_of_day_hr": {
+      "min": 6.01,
+      "max": 17.99,
+      "mean": 11.884
+    },
+    "shadow_length_m": {
+      "min": 0.218,
+      "max": 60.0,
+      "mean": 14.575
+    },
+    "shadow_width_m": {
+      "min": 0.203,
+      "max": 15.0,
+      "mean": 5.654
+    },
+    "shadow_area_m2": {
+      "min": 0.089,
+      "max": 200.0,
+      "mean": 75.498
+    },
+    "aspect_ratio": {
+      "min": 0.5,
+      "max": 15.956,
+      "mean": 2.934
+    },
+    "object_type": {
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 1.143
+    }
+  }
+}
